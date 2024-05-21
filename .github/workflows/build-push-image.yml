@@ -7,7 +7,7 @@ env:
   ACR_LOGINSERVER: ${{ secrets.ACR_LOGINSERVER }}
   ACR_USERNAME: ${{ secrets.ACR_USERNAME }}
   ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
-  image_name: oabot
+  image_name: oapi-validatecode
   tag: 5069
   #tag: latest
 
