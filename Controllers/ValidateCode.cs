@@ -35,15 +35,14 @@ namespace skapi.Controllers
             MaxTokens = int.Parse(tokens)
         };
 
-        [HttpGet(Name = "GetValidateCode")]
+        /// [HttpGet(Name = "GetValidateCode")]
         public async Task<IActionResult> GenerateText(string code)
         {
             try
             {
                 if (code == null)
                 {
-                    return 
-                     BadRequest("Error, please provide a code to validate");
+                    return BadRequest("Error, please provide a code to validate");
                 } 
                 else 
                 {
@@ -54,6 +53,7 @@ namespace skapi.Controllers
                     else 
                     {
                         Response<ChatCompletions> response = client.GetChatCompletions(chatCompletionsOptions);
+                        
                         return BadRequest(response.Value.Choices[0].Message.Content);
                     }
                 }
