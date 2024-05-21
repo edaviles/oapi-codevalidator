@@ -1,0 +1,403 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 3,
+    "entry": [
+        {
+            "fullUrl": "e8332ce0-805e-4920-97cc-73da28d4d51c",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "id": "1206",
+                "meta": {
+                    "extension": [
+                        {
+                            "url": "http://www.ramsoft.com/fhir/StructureDefinition/lastUpdateUser",
+                            "valueReference": {
+                                "id": "10",
+                                "reference": "practitioner/10",
+                                "display": "SHAH^DHYAN"
+                            }
+                        }
+                    ],
+                    "versionId": "4044174",
+                    "lastUpdated": "2024-05-21T18:28:42+00:00"
+                },
+                "extension": [
+                    {
+                        "url": "EffectiveDateTimeUTC",
+                        "valueDateTime": "2024-05-21T18:28:41+00:00"
+                    },
+                    {
+                        "url": "http://www.ramsoft.com/fhir/extension/signedDateTimeUTC",
+                        "valueString": "5/21/2024, 6:28:41 PM"
+                    },
+                    {
+                        "url": "http://www.ramsoft.com/fhir/StructureDefinition/StudyInstanceUID",
+                        "valueString": "1.2.124.113540.1.2.14145.14648.16691.14644"
+                    },
+                    {
+                        "url": "http://www.ramsoft.com/fhir/extension/managingOrganization",
+                        "valueReference": {
+                            "id": "1",
+                            "reference": "Organization/1",
+                            "display": "RAMSOFT"
+                        }
+                    }
+                ],
+                "identifier": [
+                    {
+                        "value": "urn:oid:6bb4a284-66da-4a"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "id": "1325",
+                        "reference": "ServiceRequest/1325"
+                    }
+                ],
+                "status": "preliminary",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "LP29684-5",
+                                "display": "Radiology"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "18748-4",
+                            "display": "Diagnostic Imaging Study"
+                        }
+                    ]
+                },
+                "subject": {
+                    "id": "1517",
+                    "reference": "Patient/1517",
+                    "display": "TEST PUBLICLINK^NGOC 10"
+                },
+                "effectiveDateTime": "2024-05-21T14:28:41+00:00",
+                "performer": [
+                    {
+                        "id": "10",
+                        "reference": "Practitioner/10",
+                        "display": "Dhyan Shah"
+                    }
+                ],
+                "imagingStudy": [
+                    {
+                        "id": "1318",
+                        "reference": "ImagingStudy/1318",
+                        "display": "TEST 4"
+                    }
+                ],
+                "presentedForm": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://www.ramsoft.com/fhir/StructureDefinition/reportThumbnail",
+                                "valueAttachment": {
+                                    "contentType": "image/jpeg",
+                                    "url": "https://dicomstorag246vxrbdfx6mq.blob.core.windows.net/ramsoft-org-oklrppzwbacgxtrmwwesyrsztifhrroe/diagnosticreport/6bb4a284-66da-4a/0/thumbnail",
+                                    "size": 181168,
+                                    "creation": "2024-05-21T18:28:42.000000+00:00"
+                                }
+                            },
+                            {
+                                "url": "http://www.ramsoft.com/fhir/StructureDefinition/originalForm",
+                                "valueAttachment": {
+                                    "extension": [
+                                        {
+                                            "url": "http://www.ramsoft.com/fhir/StructureDefinition/storageVersion",
+                                            "valueString": "2024-05-21T18:28:42.2444455Z"
+                                        }
+                                    ],
+                                    "contentType": "text/html",
+                                    "url": "https://dicomstorag246vxrbdfx6mq.blob.core.windows.net/ramsoft-org-oklrppzwbacgxtrmwwesyrsztifhrroe/diagnosticreport/6bb4a284-66da-4a/0/original",
+                                    "size": 76477,
+                                    "title": "Preliminary Report May 21 2024 02:28:41",
+                                    "creation": "2024-05-21T18:28:42.000000+00:00"
+                                }
+                            }
+                        ],
+                        "contentType": "application/pdf",
+                        "url": "https://dicomstorag246vxrbdfx6mq.blob.core.windows.net/ramsoft-org-oklrppzwbacgxtrmwwesyrsztifhrroe/diagnosticreport/6bb4a284-66da-4a/0/1",
+                        "size": 63307,
+                        "title": "Preliminary Report May 21 2024 02:28:41",
+                        "creation": "2024-05-21T18:28:42.000000+00:00"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "469d0116-47e7-4e24-afa2-0561d101ba0d",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "id": "1205",
+                "meta": {
+                    "extension": [
+                        {
+                            "url": "http://www.ramsoft.com/fhir/StructureDefinition/lastUpdateUser",
+                            "valueReference": {
+                                "id": "10",
+                                "reference": "practitioner/10",
+                                "display": "SHAH^DHYAN"
+                            }
+                        }
+                    ],
+                    "versionId": "4044164",
+                    "lastUpdated": "2024-05-21T18:28:31+00:00"
+                },
+                "extension": [
+                    {
+                        "url": "EffectiveDateTimeUTC",
+                        "valueDateTime": "2024-05-21T14:28:30+00:00"
+                    },
+                    {
+                        "url": "http://www.ramsoft.com/fhir/extension/signedDateTimeUTC",
+                        "valueString": "5/21/2024, 6:28:26 PM"
+                    },
+                    {
+                        "url": "http://www.ramsoft.com/fhir/StructureDefinition/StudyInstanceUID",
+                        "valueString": "1.2.124.113540.1.2.14145.14648.16691.14644"
+                    },
+                    {
+                        "url": "http://www.ramsoft.com/fhir/extension/managingOrganization",
+                        "valueReference": {
+                            "id": "1",
+                            "reference": "Organization/1",
+                            "display": "RAMSOFT"
+                        }
+                    }
+                ],
+                "identifier": [
+                    {
+                        "value": "urn:oid:aa2311e1-9ea4-47"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "id": "1325",
+                        "reference": "ServiceRequest/1325"
+                    }
+                ],
+                "status": "preliminary",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "LP29684-5",
+                                "display": "Radiology"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "18748-4",
+                            "display": "Diagnostic Imaging Study"
+                        }
+                    ]
+                },
+                "subject": {
+                    "id": "1517",
+                    "reference": "Patient/1517",
+                    "display": "TEST PUBLICLINK^NGOC 10"
+                },
+                "effectiveDateTime": "2024-05-21T14:28:30+00:00",
+                "performer": [
+                    {
+                        "id": "10",
+                        "reference": "Practitioner/10",
+                        "display": "Dhyan Shah"
+                    }
+                ],
+                "imagingStudy": [
+                    {
+                        "id": "1318",
+                        "reference": "ImagingStudy/1318",
+                        "display": "TEST 4"
+                    }
+                ],
+                "presentedForm": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://www.ramsoft.com/fhir/StructureDefinition/reportThumbnail",
+                                "valueAttachment": {
+                                    "contentType": "image/jpeg",
+                                    "url": "https://dicomstorag246vxrbdfx6mq.blob.core.windows.net/ramsoft-org-oklrppzwbacgxtrmwwesyrsztifhrroe/diagnosticreport/aa2311e1-9ea4-47/0/thumbnail",
+                                    "size": 170196,
+                                    "creation": "2024-05-21T18:28:27.000000+00:00"
+                                }
+                            },
+                            {
+                                "url": "http://www.ramsoft.com/fhir/StructureDefinition/originalForm",
+                                "valueAttachment": {
+                                    "extension": [
+                                        {
+                                            "url": "http://www.ramsoft.com/fhir/StructureDefinition/storageVersion",
+                                            "valueString": "2024-05-21T18:28:31.0769091Z"
+                                        }
+                                    ],
+                                    "contentType": "text/html",
+                                    "url": "https://dicomstorag246vxrbdfx6mq.blob.core.windows.net/ramsoft-org-oklrppzwbacgxtrmwwesyrsztifhrroe/diagnosticreport/aa2311e1-9ea4-47/0/original",
+                                    "size": 76621,
+                                    "title": "Preliminary Report May 21 2024 02:28:26",
+                                    "creation": "2024-05-21T18:28:31.000000+00:00"
+                                }
+                            }
+                        ],
+                        "contentType": "application/pdf",
+                        "url": "https://dicomstorag246vxrbdfx6mq.blob.core.windows.net/ramsoft-org-oklrppzwbacgxtrmwwesyrsztifhrroe/diagnosticreport/aa2311e1-9ea4-47/0/1",
+                        "size": 69736,
+                        "title": "Preliminary Report May 21 2024 02:28:26",
+                        "creation": "2024-05-21T18:28:31.000000+00:00"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "27503294-69f5-4109-8bc5-e7a8d3f22b06",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "id": "1204",
+                "meta": {
+                    "extension": [
+                        {
+                            "url": "http://www.ramsoft.com/fhir/StructureDefinition/lastUpdateUser",
+                            "valueReference": {
+                                "id": "10",
+                                "reference": "practitioner/10",
+                                "display": "SHAH^DHYAN"
+                            }
+                        }
+                    ],
+                    "versionId": "4044144",
+                    "lastUpdated": "2024-05-21T18:28:11+00:00"
+                },
+                "extension": [
+                    {
+                        "url": "EffectiveDateTimeUTC",
+                        "valueDateTime": "2024-05-21T14:28:10+00:00"
+                    },
+                    {
+                        "url": "http://www.ramsoft.com/fhir/extension/signedDateTimeUTC",
+                        "valueString": "5/21/2024, 6:28:06 PM"
+                    },
+                    {
+                        "url": "http://www.ramsoft.com/fhir/StructureDefinition/StudyInstanceUID",
+                        "valueString": "1.2.124.113540.1.2.14145.14648.16691.14644"
+                    },
+                    {
+                        "url": "http://www.ramsoft.com/fhir/extension/managingOrganization",
+                        "valueReference": {
+                            "id": "1",
+                            "reference": "Organization/1",
+                            "display": "RAMSOFT"
+                        }
+                    }
+                ],
+                "identifier": [
+                    {
+                        "value": "urn:oid:d67a4e42-0aea-43"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "id": "1325",
+                        "reference": "ServiceRequest/1325"
+                    }
+                ],
+                "status": "preliminary",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "LP29684-5",
+                                "display": "Radiology"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "18748-4",
+                            "display": "Diagnostic Imaging Study"
+                        }
+                    ]
+                },
+                "subject": {
+                    "id": "1517",
+                    "reference": "Patient/1517",
+                    "display": "TEST PUBLICLINK^NGOC 10"
+                },
+                "effectiveDateTime": "2024-05-21T14:28:10+00:00",
+                "performer": [
+                    {
+                        "id": "10",
+                        "reference": "Practitioner/10",
+                        "display": "Dhyan Shah"
+                    }
+                ],
+                "imagingStudy": [
+                    {
+                        "id": "1318",
+                        "reference": "ImagingStudy/1318",
+                        "display": "TEST 4"
+                    }
+                ],
+                "presentedForm": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://www.ramsoft.com/fhir/StructureDefinition/reportThumbnail",
+                                "valueAttachment": {
+                                    "contentType": "image/jpeg",
+                                    "url": "https://dicomstorag246vxrbdfx6mq.blob.core.windows.net/ramsoft-org-oklrppzwbacgxtrmwwesyrsztifhrroe/diagnosticreport/d67a4e42-0aea-43/0/thumbnail",
+                                    "size": 190107,
+                                    "creation": "2024-05-21T18:28:07.000000+00:00"
+                                }
+                            },
+                            {
+                                "url": "http://www.ramsoft.com/fhir/StructureDefinition/originalForm",
+                                "valueAttachment": {
+                                    "extension": [
+                                        {
+                                            "url": "http://www.ramsoft.com/fhir/StructureDefinition/storageVersion",
+                                            "valueString": "2024-05-21T18:28:11.3783152Z"
+                                        }
+                                    ],
+                                    "contentType": "text/html",
+                                    "url": "https://dicomstorag246vxrbdfx6mq.blob.core.windows.net/ramsoft-org-oklrppzwbacgxtrmwwesyrsztifhrroe/diagnosticreport/d67a4e42-0aea-43/0/original",
+                                    "size": 77240,
+                                    "title": "Preliminary Report May 21 2024 02:28:06",
+                                    "creation": "2024-05-21T18:28:11.000000+00:00"
+                                }
+                            }
+                        ],
+                        "contentType": "application/pdf",
+                        "url": "https://dicomstorag246vxrbdfx6mq.blob.core.windows.net/ramsoft-org-oklrppzwbacgxtrmwwesyrsztifhrroe/diagnosticreport/d67a4e42-0aea-43/0/1",
+                        "size": 71899,
+                        "title": "Preliminary Report May 21 2024 02:28:06",
+                        "creation": "2024-05-21T18:28:11.000000+00:00"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}
