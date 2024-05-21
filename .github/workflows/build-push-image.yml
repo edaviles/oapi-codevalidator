@@ -1,4 +1,4 @@
-name: 4 Build and Push image to ACR
+name: Build and Push image to ACR
 
 # Controls when the workflow will run
 on: workflow_dispatch
