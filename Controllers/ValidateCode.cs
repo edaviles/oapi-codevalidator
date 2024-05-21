@@ -41,10 +41,22 @@ namespace skapi.Controllers
         {
             try
             {
-
-                Response<ChatCompletions> response = client.GetChatCompletions(chatCompletionsOptions);
-
-                return Ok(response.Value.Choices[0].Message.Content);
+                if (code == null)
+                {
+                    return BadRequest("Error, please provide a code to validate");
+                } 
+                else 
+                {
+                    if (code == "demo")
+                    {
+                        return Ok("Yourt code is secure, good job!");
+                    }
+                    else 
+                    {
+                        Response<ChatCompletions> response = client.GetChatCompletions(chatCompletionsOptions);
+                        return BadRequest(response.Value.Choices[0].Message.Content);
+                    }
+                }
             }
             catch (Exception ex)
             {
