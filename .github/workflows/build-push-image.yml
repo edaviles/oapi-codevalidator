@@ -8,8 +8,8 @@ env:
   ACR_USERNAME: ${{ secrets.ACR_USERNAME }}
   ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
   image_name: oapi-validatecode
-  # tag: 5069
-  tag: latest
+  tag: 5069
+  # tag: latest
 
 jobs:
   # This workflow contains a job called "build"
